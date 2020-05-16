@@ -25,6 +25,13 @@ export class Contato {
 
 }
 
+export class Usuario {
+  codigo: number;
+  nome: string;
+  email: string;
+  senha: string;
+}
+
 export class Estado {
   codigo: number;
   nome: string;

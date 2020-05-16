@@ -51,9 +51,10 @@ export class PessoaService {
   }
 
   listarTodos(): Promise<any> {
-    return this.http.get<any>(`${this.pessoasUrl}`)
+    const teste = this.http.get<any>(`${this.pessoasUrl}`)
       .toPromise()
       .then(response => response.content);
+    return teste;
   }
 
   excluir(codigo: number): Promise<void> {

@@ -1,0 +1,46 @@
+<div class="container">
+
+  <form autocomplete="off" #f="ngForm">
+
+    <div class="ui-g">
+      <div class="ui-g-12">
+        <h1>{{ editando ? 'Edição de' : 'Novo' }} Usuário</h1>
+      </div>
+
+      <div class="ui-g-12 ui-fluid">
+        <label>Nome</label>
+        <input pInputText type="text" name="nome"
+        [(ngModel)]="usuario.nome"
+        required minlength="5">
+      </div>
+
+      <!-- <div class="ui-g-12 ui-md-6 ui-fluid">
+        <label>teste</label>
+        <input pInputText type="text" name="email"
+        [(ngModel)]="usuario.email">
+      </div>
+
+      <div class="ui-g-12 ui-md-6 ui-fluid">
+        <label>Senha</label>
+        <input pInputText type="password" name="senha"
+        [(ngModel)]="usuario.senha">
+      </div> -->
+
+      <div class="ui-g-12 ui-md-6 ui-fluid">
+        <label>Email</label>
+        <input type="email" name="email" pInputText
+        [(ngModel)]="usuario.email" />
+      </div>
+
+      <div class="ui-g-12 ui-md-6 ui-fluid">
+        <label>Senha</label>
+        <input type="password" pPassword name="senha" autocomplete="off"
+        [(ngModel)]="usuario.senha" />
+      </div>
+    </div>
+
+    <div class="ui-g-12">
+      <a routerLink="/usuarios">Voltar para Pesquisa</a>
+    </div>
+  </form>
+</div>

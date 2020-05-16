@@ -14,10 +14,12 @@
       *ngIf="auth.temPermissao('ROLE_PESQUISAR_LANCAMENTO')"><a routerLink="/lancamentos">Lancamentos</a></li>
     <li class="navbar-menuitem" routerLinkActive="ativo" (click)="exibindoMenu = !exibindoMenu"
       *ngIf="auth.temPermissao('ROLE_PESQUISAR_PESSOA')"><a routerLink="/pessoas">Pessoas</a></li>
-    <li class="navbar-menuitem" routerLinkActive="ativo" (click)="exibindoMenu = !exibindoMenu"
+      <li class="navbar-menuitem" routerLinkActive="ativo" (click)="exibindoMenu = !exibindoMenu"
       *ngIf="auth.temPermissao('ROLE_PESQUISAR_LANCAMENTO')"><a routerLink="/dashboard">DashBoard</a></li>
-    <li class="navbar-menuitem" routerLinkActive="ativo" (click)="exibindoMenu = !exibindoMenu"
+      <li class="navbar-menuitem" routerLinkActive="ativo" (click)="exibindoMenu = !exibindoMenu"
       *ngIf="auth.temPermissao('ROLE_PESQUISAR_LANCAMENTO')"><a routerLink="/relatorios/lancamentos">Relatório</a></li>
+      <li class="navbar-menuitem" routerLinkActive="ativo" (click)="exibindoMenu = !exibindoMenu"
+        *ngIf="auth.temPermissao('ROLE_PESQUISAR_PESSOA')"><a routerLink="/usuarios">Usuarios</a></li>
     <li class="navbar-menuitem"><a href="javascript:;" (click)="logout()">Logout</a></li>
   </ul>
 

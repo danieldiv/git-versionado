@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { SegurancaModule } from './seguranca/seguranca.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { RelatoriosModule } from './relatorios/relatorios.module';
+import { UsuariosModule } from './usuarios/usuarios.module';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { RelatoriosModule } from './relatorios/relatorios.module';
     CoreModule,
     LancamentosModule,
     PessoasModule,
+    UsuariosModule,
     DashboardModule,
     SegurancaModule,
     RelatoriosModule,
