@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { InputTextModule } from 'primeng/inputtext';
-import { CurrencyMaskModule } from 'ng2-currency-mask';
+import { NgxCurrencyModule } from 'ngx-currency';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
@@ -39,7 +39,7 @@ import { LancamentosRoutingModule } from './lancamentos-routing.module';
     SelectButtonModule,
     DropdownModule,
     KeyFilterModule,
-    CurrencyMaskModule,
+    NgxCurrencyModule,
     FileUploadModule,
     ProgressSpinnerModule,
 

@@ -91,9 +91,9 @@
           [href]="formulario.get('urlAnexo').value">{{ nomeAnexo }}</a>
       </div>
 
-      <div class="ui-g-12">
+      <div class="ui-g-12 cadastro-acoes">
         <button pButton type="submit" label="Salvar"
-          class="item-grudado" [disabled]="formulario.invalid || uploadEmAndamento"></button>
+          [disabled]="formulario.invalid || uploadEmAndamento"></button>
         <button pButton type="button" label="Novo" class="item-grudado ui-button-info"
           (click)="novo()"></button>
         <a routerLink="/lancamentos">Voltar para pesquisa</a>

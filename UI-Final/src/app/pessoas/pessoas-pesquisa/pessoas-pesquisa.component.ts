@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
-import { LazyLoadEvent, ConfirmationService, MessageService } from 'primeng/components/common/api';
+import { LazyLoadEvent, ConfirmationService, MessageService } from 'primeng/api';
 import { Table } from 'primeng/table';
 
 import { PessoaService, PessoaFiltro } from '../pessoa.service';

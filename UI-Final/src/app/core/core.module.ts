@@ -6,7 +6,7 @@ import localePt from '@angular/common/locales/pt';
 
 import { ConfirmDialogModule } from 'primeng/confirmdialog';
 import { ConfirmationService, MessageService } from 'primeng/api';
-import { GrowlModule } from 'primeng/growl';
+import { ToastModule } from 'primeng/toast';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { ErrorHandlerService } from './error-handler.service';
@@ -27,12 +27,12 @@ registerLocaleData(localePt);
     CommonModule,
     RouterModule,
 
-    GrowlModule,
+    ToastModule,
     ConfirmDialogModule,
   ],
   exports: [
     NavbarComponent,
-    GrowlModule,
+    ToastModule,
     ConfirmDialogModule
   ],
   providers: [

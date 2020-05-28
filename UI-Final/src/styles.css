@@ -18,6 +18,11 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
+a.ui-button:hover {
+  background-color: #005b9f;
+  color: white!important;
+}
+
 a, button {
   margin-right: .25em;
 }
@@ -51,4 +56,22 @@ a, button {
 
 .col-acoes-content {
   text-align: center;
+}
+
+.col-acoes-content .ui-button {
+  margin: 1px;
+}
+
+.label-espaced {
+  margin: 5px;
+}
+
+.cadastro-acoes .ui-button {
+  margin-right: 5px;
+}
+
+.relatorio-filtro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

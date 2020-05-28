@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { MessageService } from 'primeng/components/common/api';
+import { MessageService } from 'primeng/api';
 
 import { NotAuthenticadedError } from '../seguranca/money-http-interceptor';
 

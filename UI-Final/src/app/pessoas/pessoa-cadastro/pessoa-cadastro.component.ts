@@ -3,11 +3,11 @@ import { NgForm } from '@angular/forms';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 
-import { MessageService } from 'primeng/components/common/api';
 
 import { Pessoa } from 'src/app/core/model';
 import { PessoaService } from '../pessoa.service';
 import { ErrorHandlerService } from 'src/app/core/error-handler.service';
+import { MessageService } from 'primeng/api';
 
 @Component({
   selector: 'app-pessoa-cadastro',

@@ -3,7 +3,7 @@ import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms'
 import { ActivatedRoute, Router } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 
-import { MessageService } from 'primeng/components/common/api';
+import { MessageService } from 'primeng/api';
 
 import { CategoriaService } from 'src/app/categorias/categoria.service';
 import { ErrorHandlerService } from 'src/app/core/error-handler.service';
